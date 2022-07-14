@@ -1,0 +1,51 @@
+import {
+  Tabbar,
+  TabbarItem,
+  Swipe,
+  SwipeItem,
+  Lazyload,
+  Search,
+  Icon,
+  DropdownMenu,
+  DropdownItem,
+  Grid,
+  GridItem,
+  Cell,
+  CellGroup,
+  Empty,
+  Button,
+  Field,
+  NavBar,
+  IndexBar,
+  IndexAnchor,
+  form,
+  Area,
+  Popup
+} from "vant";
+const element = [
+  Tabbar,
+  TabbarItem,
+  Swipe,
+  SwipeItem,
+  Lazyload,
+  Search,
+  Icon,
+  DropdownMenu,
+  DropdownItem,
+  Grid,
+  GridItem,
+  Cell,
+  CellGroup,
+  Empty,
+  Button,
+  Field,
+  NavBar,
+  IndexBar,
+  IndexAnchor,
+  form,
+  Area,
+  Popup
+];
+export default function (Vue) {
+  element.forEach((el) => Vue.use(el));
+}
